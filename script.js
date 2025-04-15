@@ -8,8 +8,8 @@ let userMessage = null;
 let isResponseGenerating = false;
 
 // API configuration
-const API_KEY = "AIzaSyAz7Cc22lLRcLSR2XSF7lMot_91WxlXfYw"; // Your API key here
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
+const API_KEY = "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"; // Your API key here
+const API_URL = `https://gpt-3-5.apis-bj-devs.workers.dev/:generateContent?key=${API_KEY}`;
 
 // Load theme and chat data from local storage on page load
 const loadDataFromLocalstorage = () => {
